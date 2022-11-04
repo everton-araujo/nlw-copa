@@ -1,7 +1,7 @@
-#SERVER
+###SERVER###
 server/node_modules
 
-#WEB
+###WEB###
 # dependencies
 web/node_modules
 web/.pnp
@@ -36,3 +36,19 @@ web/.vercel
 # typescript
 web/*.tsbuildinfo
 web/next-env.d.ts
+
+###MOBILE###
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/npm-debug.*
+mobile/*.jks
+mobile/*.p8
+mobile/*.p12
+mobile/*.key
+mobile/*.mobileprovision
+mobile/*.orig.*
+mobile/web-build/
+
+# macOS
+mobile/.DS_Store
